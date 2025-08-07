@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bashir Buhari - Cloud Resume</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <div class="max-w-3xl mx-auto my-10 p-8 bg-white shadow-md rounded-lg">
+    <!-- Header -->
+    <header class="text-center mb-8">
+      <h1 class="text-4xl font-bold">Bashir Buhari</h1>
+      <p class="text-lg text-gray-600">Entry-Level Cloud Engineer</p>
+      <p class="mt-2">📍 Alberta, Canada | 📧 bashirbuhari2@gmail.com | 🔗 github.com/Bashnalytics/My-Cloud-Resume.git</p>
+    </header>
+
+    <!-- Summary -->
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold border-b pb-1 mb-2">Professional Summary</h2>
+      <p>
+        AWS Certified Cloud enthusiast with hands-on experience in deploying applications in secure environments, optimizing cloud infrastructure for efficiency, and implementing best DevOps practices. Strong foundation in IT, problem-solving, and customer engagement.
+      </p>
+    </section>
+
+    <!-- Certifications -->
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold border-b pb-1 mb-2">Certifications</h2>
+      <ul class="list-disc ml-5">
+        <li>AWS Certified Cloud Practitioner (AWS CP)</li>
+        <li>AWS Certified Solutions Architect – Associate (AWS SAA)</li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold border-b pb-1 mb-2">Technical Skills</h2>
+      <p>Cloud: AWS (EC2, S3, IAM, CloudFront, Route 53) | CI/CD: GitHub Actions | DevOps: Linux, Docker, Bash | Monitoring: CloudWatch | IaC: Terraform (basic) | Version Control: Git</p>
+    </section>
+
+    <!-- Projects -->
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold border-b pb-1 mb-2">Projects</h2>
+      <ul class="list-disc ml-5">
+        <li>
+          <strong>Cloud Resume Challenge:</strong> Built a resume website hosted on S3 and deployed with CI/CD pipeline using GitHub Actions, Route 53 for DNS, and Lambda for backend API with DynamoDB.
+        </li>
+      </ul>
+    </section>
+
+    <!-- Experience -->
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold border-b pb-1 mb-2">Experience</h2>
+      <ul class="list-disc ml-5">
+        <li><strong>DevOps Intern</strong> – VTEX Voice Solutions (2024): Contributed to Azure infrastructure design, security assessment, and disaster recovery plan for Laravel-based APIs.</li>
+        <li><strong>Cloud Engineering Projects</strong>: Built test environments using EC2 and Docker to simulate real-world deployment scenarios.</li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <section class="mb-6">
+      <h2 class="text-2xl font-semibold border-b pb-1 mb-2">Education</h2>
+      <p>Bachelor of Science in Economics (4.03/5.00 CGPA).</p>
+    </section>
+
+    <!-- Links -->
+    <section>
+      <h2 class="text-2xl font-semibold border-b pb-1 mb-2">Links</h2>
+      <ul class="list-disc ml-5">
+        <li><a href="https://github.com/Bashnalytics/My-Cloud-Resume.git" class="text-blue-600">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/bashir-buhari-954042101/" class="text-blue-600">LinkedIn</a></li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>

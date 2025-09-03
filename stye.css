@@ -1,0 +1,26 @@
+/* Custom Section Titles */
+.section-title {
+  @apply text-2xl font-semibold border-b pb-1 mb-2;
+}
+
+/* Custom Links */
+.custom-link {
+  @apply text-blue-600 hover:underline;
+}
+
+/* Print Resume Styling */
+@media print {
+  body {
+    background: white;
+    color: black;
+    padding: 0;
+  }
+  .max-w-3xl {
+    box-shadow: none !important;
+    border: none !important;
+  }
+  a {
+    color: black !important;
+    text-decoration: none !important;
+  }
+}
